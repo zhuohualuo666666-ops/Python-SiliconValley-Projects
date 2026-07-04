@@ -1,6 +1,9 @@
 # Python-SiliconValley-Projects
 <!-- 尚硅谷Python案例复现 -->
 
+/*2026.7.4*/
+上传01_字面量
+
 /*2026.7.1*/
 上传先来个打印吧（第一个python程序）学习笔记
 
