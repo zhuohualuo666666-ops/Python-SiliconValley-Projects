@@ -1,6 +1,9 @@
 # Python-SiliconValley-Projects
 <!-- 尚硅谷Python案例复现 -->
 
+/*2026.7.5*/
+上传02_变量
+
 /*2026.7.4*/
 上传01_字面量
 
