@@ -1,6 +1,9 @@
 # Python-SiliconValley-Projects
 <!-- 尚硅谷Python案例复现 -->
 
+/*2026.7.9*/
+上传09.字面量学习笔记
+
 /*2026.7.8*/
 上传05_注释
 
