@@ -1,6 +1,9 @@
 # Python-SiliconValley-Projects
 <!-- 尚硅谷Python案例复现 -->
 
+/*2026.7.11*/
+上传06_字符编码
+
 /*2026.7.10*/
 上传10.变量
 
