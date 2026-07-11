@@ -1,0 +1,7 @@
+#coding=gb2312
+
+message1='ÄãºÃ°¡'
+message2='hello'
+message3='¤³¤ó¤Ë¤Á¤Ï'
+message4='?????'
+print(message1,message2,message3,message4)
