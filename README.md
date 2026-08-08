@@ -1,5 +1,9 @@
 # Python-SiliconValley-Projects
 <!-- 尚硅谷Python案例复现 -->
+
+/*2026.8.9/
+上传20_逻辑运算符
+
 /*2026.8.8*/
 上传19_布尔类型
 
