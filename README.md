@@ -1,6 +1,9 @@
 # Python-SiliconValley-Projects
 <!-- 尚硅谷Python案例复现 -->
 
+/*2026.8.27*/
+上传36.for循环学习笔记
+
 /*2026.8.26*/
 上传35.while循环学习笔记
 
