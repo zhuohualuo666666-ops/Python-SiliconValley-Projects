@@ -1,6 +1,9 @@
 # Python-SiliconValley-Projects
 <!-- 尚硅谷Python案例复现 -->
 
+/*2026.8.30*/
+上传06_while循环案例
+
 /*2026.8.29*/
 上传39对比while与for笔记
 
