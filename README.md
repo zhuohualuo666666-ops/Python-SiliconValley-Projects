@@ -1,6 +1,9 @@
 # Python-SiliconValley-Projects
 <!-- 尚硅谷Python案例复现 -->
 
+/*2026.9.1*/
+上传07_fot循环
+
 /*2026.8.31*/
 上传40.嵌套循环学习笔记
 
