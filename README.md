@@ -1,6 +1,9 @@
 # Python-SiliconValley-Projects
 <!-- 尚硅谷Python案例复现 -->
 
+/*2026.9.2*/
+上传08_for循环案例
+
 /*2026.9.1*/
 上传07_fot循环
 
