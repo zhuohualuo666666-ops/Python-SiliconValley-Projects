@@ -1,0 +1,60 @@
+print('欢迎进入流行梗数字闯关赛（按q随时退出）\n')
+
+# 题目与答案
+ques1, ans1 = '坤指数字多少？', '2.5'
+ques2, ans2 = '皮带指数字多少？', '2.4e12'
+ques3, ans3 = '小目标指数字多少？', '1e8'
+
+# 最多可尝试次数
+max_tries = 3
+# 总关卡数
+total_levels = 3
+# 是否处于可游戏状态
+is_playing = True
+
+# 根据题目数量开始循环
+for level in range(1, total_levels + 1):
+    # 打印当前所在关卡编号
+    print(f'*****第{level}关*****')
+    # 取出当前关卡对应题目和答案
+    if level == 1:
+        question, answer = ques1, ans1
+    elif level == 2:
+        question, answer = ques2, ans2
+    else:
+        question, answer = ques3, ans3
+    # 记录当前关卡尝试次数
+    tries = 0
+    # 已尝试次数小于等于最大尝试次数，进入循环
+    while tries < max_tries:
+        # 向用户提问
+        use_input = input(question)
+        # 根据输入决定反馈
+        if use_input == answer:
+            print('回答正确！😄\n')
+            break
+        elif use_input == '':
+            print('您的输入为空，请重新作答！😜\n')
+            continue
+        elif use_input == 'q':
+            print('您已退出游戏，拜拜！👋🏻\n')
+            is_playing = False
+            break
+        else:
+            # 计算剩余次数
+            leave = max_tries - (tries + 1)
+            # 判断是否有剩余次数
+            if leave > 0:
+                print(f'回答错误，您还有{leave}次机会！😳\n')
+                tries += 1
+                continue
+            else:
+                print(f'挑战失败，本题正确答案是：{answer},游戏结束！😭\n')
+                tries += 1
+                is_playing = False
+    # 每次进入下一关前检查is_playing，为false时结束游戏
+    if not is_playing:
+        break
+# 如果到了这里，is_playing的值依然为True,意味着用户通关
+if is_playing:
+    print('恭喜通关，您就是梗王!👑')
