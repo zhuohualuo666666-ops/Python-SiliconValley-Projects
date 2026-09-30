@@ -1,9 +1,6 @@
 # Python-SiliconValley-Projects
 <!-- 尚硅谷Python案例复现 -->
 
-/*2026.9.30*/
-上传09_函数返回值案例
-
 /*2026.9.29*/
 上传08_none学习笔记
 
